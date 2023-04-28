@@ -1,5 +1,5 @@
 # Start with a Node.js base image that uses Node v13
-FROM --platform=linux/amd64 node:18
+FROM public.ecr.aws/docker/library/node:alpine3.16
 WORKDIR /app
 
 # Copy the package.json file to the container and install fresh node_modules
